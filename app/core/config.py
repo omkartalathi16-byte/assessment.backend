@@ -2,8 +2,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    DATABASE_URL_DOCKER: str
-    DATABASE_URL_LOCAL: str
+    DATABASE_URL: str
 
     # 🔥 DEV FLAG — bypass token validation
     DEV_BYPASS_TOKEN: bool = True
