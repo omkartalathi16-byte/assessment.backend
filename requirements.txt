@@ -6,3 +6,4 @@ alembic
 python-docx
 python-multipart
 pydantic
+pydantic-settings
