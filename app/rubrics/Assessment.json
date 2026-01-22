@@ -1,0 +1,30 @@
+{
+  "max_score": 10,
+  "criteria": [
+    {
+      "keywords": ["preparation", "planning"],
+      "weight": 0.2,
+      "description": "Mentions preparation phase"
+    },
+    {
+      "keywords": ["detection", "identification"],
+      "weight": 0.2,
+      "description": "Mentions detection phase"
+    },
+    {
+      "keywords": ["containment"],
+      "weight": 0.2,
+      "description": "Mentions containment"
+    },
+    {
+      "keywords": ["eradication"],
+      "weight": 0.2,
+      "description": "Mentions eradication"
+    },
+    {
+      "keywords": ["recovery", "lessons learned"],
+      "weight": 0.2,
+      "description": "Mentions recovery & lessons learned"
+    }
+  ]
+}
